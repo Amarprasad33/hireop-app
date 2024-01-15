@@ -98,7 +98,7 @@
   /* border: 1px solid red; */
   height: 100vh;
   background: linear-gradient(145deg, rgba(51, 24, 107, 0.9) 0%, rgba(242,175,239,0.2) 100%), url(https://images.unsplash.com/photo-1496307653780-42ee777d4833?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  background-position-x: right;
+  background-position-x: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
