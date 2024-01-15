@@ -1,0 +1,12 @@
+[
+    {
+        "creator-name": "Arzoo",
+        "creator-desc": "I am a gaming content creator",
+        "job-title": "video editor",
+        "job-desc": "A job for a video editor",
+        "stipend": 23000,
+        "requirements": ["Figma", "Illustrator", "Photoshop"],
+        "type": "partime",
+        "active": true
+    }
+]

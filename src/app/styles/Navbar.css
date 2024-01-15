@@ -23,10 +23,11 @@
 }
 
 .logo{
-    font-size: 18px;
-    margin-top: 4px;
+    font-size: 20px;
+    margin-top: 2px;
     font-weight: 700;
     font-style: italic;
+    padding-right: 6px;
 }
 
 .action-btn{

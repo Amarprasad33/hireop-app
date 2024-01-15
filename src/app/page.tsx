@@ -14,6 +14,7 @@ export default function Home() {
           </div>
         </div>
         <video src={require('../../public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' />
+        {/* Section - 2 - Actions - diff pages */}
         <div className="section-action">
           <div className="message-container">
             <div className="message-content">
@@ -23,6 +24,25 @@ export default function Home() {
               <div className="plane-btn-group">
                 <button className='btn-black'>Find your next hire</button>
                 <button className='btn-white'>Find your next job</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* Section - 3 Stats */}
+        <div className="section-stats">
+          <div className="stats-container">
+            <div className="stats-content">
+              <div className="num-group">
+                <div className="num">500K+</div>
+                <div className="info">Matches Made</div>
+              </div>
+              <div className="num-group">
+                <div className="num">100K+</div>
+                <div className="info">Gigs</div>
+              </div>
+              <div className="num-group">
+                <div className="num">1M+</div>
+                <div className="info">Agency Ready Candidates</div>
               </div>
             </div>
           </div>

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Andre Rox",
+        "profile-img": "https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": ["Premeire pro", "thubnail design"],
+        "experience": 6,
+        "designation": "Content Writer",
+        "bio": "I am an awesome writer who can make the words sing"
+    },
+    {
+        "name": "Andre Rox",
+        "profile-img": "https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": ["Premeire pro", "thubnail design"],
+        "experience": 6,
+        "designation": "Content Writer",
+        "bio": "I am an awesome writer who can make the words sing"
+    }
+]
