@@ -100,7 +100,6 @@
 .classic-btn{
     border: none;
     background: none;
-    /*  */
     display: inline-block;
     position: relative;
     color: #0087ca;
@@ -112,7 +111,7 @@
     width: 100%;
     transform: scaleX(0);
     height: 0.13rem;
-    bottom: 6px;
+    bottom: 2px;
     left: 0;
     background-color: #fff;
     transform-origin: bottom right;

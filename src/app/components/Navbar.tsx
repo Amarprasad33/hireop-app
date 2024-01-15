@@ -37,7 +37,7 @@ export default function Navbar() {
                             </svg>
                         </span>
                         <span className="btn-font">
-                            Sign in
+                            Sign up
                         </span>
                     </div>
                 </button>               

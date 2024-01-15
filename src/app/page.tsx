@@ -14,6 +14,19 @@ export default function Home() {
           </div>
         </div>
         <video src={require('../../public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' />
+        <div className="section-action">
+          <div className="message-container">
+            <div className="message-content">
+              <div className="message">
+                Where content creators and creative professionals connect
+              </div>
+              <div className="plane-btn-group">
+                <button className='btn-black'>Find your next hire</button>
+                <button className='btn-white'>Find your next job</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
   )
 }
