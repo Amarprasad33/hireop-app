@@ -48,7 +48,69 @@ export default function Home() {
           </div>
           <div className="separation"></div>
         </div>
-        
+        {/* Section - 4 : talent Info */}
+        <div className="section-talent-info">
+          <div className="card">
+              <div className="question">Got Talent?</div>
+              <div className="ex-head">Why job seekers love us</div>
+              <div className="stats-info-container">
+                  <div className="stat-group">
+                      <div className="icon grad"></div>
+                      <div className="stat">Connect directly with creators at top level - no third party allowed.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon grad"></div>
+                      <div className="stat">Everything you need to know, all upfront. View salary, working hours, and more before applying.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon grad"></div>
+                      <div className="stat">Say goodbye to emails - your profile is all you need.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon grad"></div>
+                      <div className="stat">Unique jobs for creators and media agencies you can’t find anywhere else.
+                      </div>
+                  </div>
+              </div>
+              <div className="btn-action-group">
+                  <button className="btn-box">Learn more</button>
+                  <button className="btn-fill">Sign up</button>
+              </div>
+          </div>
+          <div className="card adj-right">
+              <div className="question">Need Talent?</div>
+              <div className="ex-head">Why recruiters love us</div>
+              <div className="stats-info-container">
+                  <div className="stat-group">
+                      <div className="icon"></div>
+                      <div className="stat">Tap into a community of 1.5M+ engaged,ready candidates.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon"></div>
+                      <div className="stat">Everything you need to kickstart your recruiting — set up job posts, company branding etc.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon"></div>
+                      <div className="stat">A free applicant tracking system, or free integration with any ATS you may already use.
+                      </div>
+                  </div>
+                  <div className="stat-group">
+                      <div className="icon"></div>
+                      <div className="stat">Let us handle the heavy-lifting with RecruiterCloud. Our new AI-Recruiter scans 500M+ candidates</div>
+                  </div>
+              </div>
+              <div className="btn-action-group">
+                  <button className="btn-box white">Learn more</button>
+                  <button className="btn-fill">Sign up</button>
+              </div>
+          </div>
+        </div>
+        {/*  */}
     </main>
   )
 }
