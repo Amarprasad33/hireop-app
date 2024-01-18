@@ -1,0 +1,17 @@
+[
+    {
+        "heading": "For Candidates",
+        "name": "forCandidates",
+        "dataValues": ["Overview", "Startup Jobs", "Web3 Jobs", "Featured", "Salary Calculator", "Sartup Hiring Data", "Remote"]
+    },
+    {
+        "heading": "For Creators",
+        "name": "forCreators",
+        "dataValues": ["Overview", "Recruit Pro", "Curated", "RecruiterCloud", "Hire Creative Professionals", "Pricing"]
+    },
+    {
+        "heading": "Agency",
+        "name": "company",
+        "dataValues": ["About", "Hireop Venture", "Help", "Blog", "Terms & Risks", "Privacy & Cookies"]
+    }
+]
