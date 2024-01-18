@@ -131,7 +131,7 @@
   margin: 80px auto;
 }
 
-/* Section - Talent Info styels */
+/* Section - Talent Info styles */
 .section-talent-info{
   height: 100vh;
   width: 100%;
@@ -158,7 +158,7 @@
   transition: all ease-in-out 0.2s;
 }
 .card:hover{
-  transform: scale(1.01);
+  transform: translateX(2px);
 }
 .adj-right{
   margin-right: 22px;
@@ -254,4 +254,44 @@
 .btn-action-group .btn-fill:hover,
 .btn-action-group .btn-box:hover{
   transform: scale(1.1);
+}
+
+/* Section - About Page - Styles */
+.section-about{
+  color: #fff;
+  height: 100vh;
+  border: 1px solid red;
+  background-color: #41064b;
+}
+.about-header{
+  height: 18%;
+  background-color: #1e152d;
+}
+.about-container{
+  padding: 90px 20px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-menu-container{
+  display: flex;
+  gap: 30px;
+}
+.menu-heading{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.menu-heading span {
+  font-family: Graphik,sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.values-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.data-item:hover {
+  color: #ec2e3a;
+  text-decoration: underline;
 }

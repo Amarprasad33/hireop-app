@@ -1,8 +1,16 @@
 import Image from 'next/image'
 // import styles from './page.module.css'
 import './home.css';
+// import aboutMenuData from '../../public/assets/configs/about-menu.json'
+import { promises as fs } from 'fs';
+import { useEffect } from 'react';
 
-export default function Home() {
+export default async function Home() {
+  const filePath = process.cwd() + '/public/assets/configs/about-menu.json';
+  const fileBuffer = await fs.readFile(filePath);
+  const fileContents = fileBuffer.toString();
+  const menuData = JSON.parse(fileContents);
+  // console.log("data", data);
   return (
     <main className="mainContainer">
         <div className="hero">
@@ -110,7 +118,27 @@ export default function Home() {
               </div>
           </div>
         </div>
-        {/*  */}
+        {/* About / Contact Page */}
+        <div className="section-about">
+          <div className="about-header"></div>
+          <div className="about-container">
+            <div className="logo-section">
+              Hireop
+            </div>
+            <div className="about-menu-container">
+              {menuData.map((menuObj: any) => (
+                <div className="menu-heading" key={menuObj.name}>
+                  <span>{ menuObj.heading }</span>
+                  <div className="values-container">
+                    {menuObj.dataValues.map((dataItem: any) => (
+                      <div className='data-item' key={dataItem}> {dataItem} </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
     </main>
   )
 }
