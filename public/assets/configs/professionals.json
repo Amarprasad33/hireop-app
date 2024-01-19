@@ -2,17 +2,232 @@
     {
         "name": "Andre Rox",
         "profile-img": "https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "skills": ["Premeire pro", "thubnail design"],
+        "skills": [
+            "Premeire pro",
+            "thubnail design"
+        ],
         "experience": 6,
         "designation": "Content Writer",
         "bio": "I am an awesome writer who can make the words sing"
     },
     {
-        "name": "Andre Rox",
-        "profile-img": "https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "skills": ["Premeire pro", "thubnail design"],
+        "name": "John Doe",
+        "profile-img": "https://images.unsplash.com/photo-1615899486509-84e2c782b0da?q=80&w=1891&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Graphic Design",
+            "Illustration"
+        ],
+        "experience": 8,
+        "designation": "Graphic Designer",
+        "bio": "Passionate about creating visually stunning designs that captivate and inspire."
+    },
+    {
+        "name": "Jane Smith",
+        "profile-img": "https://images.unsplash.com/photo-1550682290-d071c75759f9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Video Editing",
+            "Motion Graphics"
+        ],
+        "experience": 5,
+        "designation": "Video Editor",
+        "bio": "Transforming ideas into compelling visual stories through video editing and motion graphics."
+    },
+    {
+        "name": "Alex Turner",
+        "profile-img": "https://images.unsplash.com/photo-1581382575275-97901c2635b7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Social Media Management",
+            "Content Creation"
+        ],
+        "experience": 7,
+        "designation": "Social Media Manager",
+        "bio": "Crafting engaging content and building communities on social media platforms."
+    },
+    {
+        "name": "Samantha Green",
+        "profile-img": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Script Writing",
+            "Storytelling"
+        ],
+        "experience": 10,
+        "designation": "Script Writer",
+        "bio": "Weaving compelling narratives that resonate with audiences and leave a lasting impact."
+    },
+    {
+        "name": "Michael Lee",
+        "profile-img": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Camera Operation",
+            "Photography"
+        ],
         "experience": 6,
+        "designation": "Camera Person",
+        "bio": "Capturing moments with precision and creativity through the lens of a camera."
+    },
+    {
+        "name": "Emily White",
+        "profile-img": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Thubnail Design",
+            "Digital Art"
+        ],
+        "experience": 4,
+        "designation": "Thumbnail Designer",
+        "bio": "Crafting eye-catching thumbnails that entice viewers and enhance content visibility."
+    },
+    {
+        "name": "Daniel Brown",
+        "profile-img": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Content Writing",
+            "SEO Optimization"
+        ],
+        "experience": 9,
         "designation": "Content Writer",
-        "bio": "I am an awesome writer who can make the words sing"
+        "bio": "A wordsmith dedicated to creating impactful and SEO-friendly content for diverse audiences."
+    },
+    {
+        "name": "Olivia Martinez",
+        "profile-img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Graphic Design",
+            "Branding"
+        ],
+        "experience": 7,
+        "designation": "Graphic Designer",
+        "bio": "Shaping brand identities through visually appealing and cohesive graphic designs."
+    },
+    {
+        "name": "William Turner",
+        "profile-img": "https://images.unsplash.com/photo-1540569014015-19a7be504e3a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Video Production",
+            "Cinematography"
+        ],
+        "experience": 8,
+        "designation": "Video Producer",
+        "bio": "Bringing ideas to life through the lens, creating cinematic experiences that captivate."
+    },
+    {
+        "name": "Sophia Lewis",
+        "profile-img": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Script Writing",
+            "Story Development"
+        ],
+        "experience": 6,
+        "designation": "Script Developer",
+        "bio": "Crafting compelling scripts that form the foundation for unforgettable stories."
+    },
+    {
+        "name": "Liam Parker",
+        "profile-img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Social Media Strategy",
+            "Community Building"
+        ],
+        "experience": 5,
+        "designation": "Social Media Strategist",
+        "bio": "Strategizing and executing social media campaigns that drive engagement and growth."
+    },
+    {
+        "name": "Emma Johnson",
+        "profile-img": "https://images.unsplash.com/photo-1549351512-c5e12b11e283?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Thubnail Design",
+            "Digital Illustration"
+        ],
+        "experience": 3,
+        "designation": "Thumbnail Illustrator",
+        "bio": "Transforming ideas into visually stunning thumbnails through digital illustration."
+    },
+    {
+        "name": "Nathan Adams",
+        "profile-img": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Content Creation",
+            "Copywriting"
+        ],
+        "experience": 7,
+        "designation": "Content Creator",
+        "bio": "Crafting compelling content and engaging copy that resonates with the target audience."
+    },
+    {
+        "name": "Ava Miller",
+        "profile-img": "https://images.unsplash.com/photo-1692180024031-4882297c4734?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Graphic Design",
+            "Logo Design"
+        ],
+        "experience": 6,
+        "designation": "Logo Designer",
+        "bio": "Creating unique and memorable logos that represent the essence of a brand."
+    },
+    {
+        "name": "Noah Taylor",
+        "profile-img": "https://images.unsplash.com/photo-1615109398623-88346a601842?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Video Editing",
+            "Motion Design"
+        ],
+        "experience": 4,
+        "designation": "Motion Graphics Artist",
+        "bio": "Transforming videos into dynamic visual experiences through motion design."
+    },
+    {
+        "name": "Ella Martinez",
+        "profile-img": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Script Writing",
+            "Dialogue Editing"
+        ],
+        "experience": 8,
+        "designation": "Dialogue Editor",
+        "bio": "Crafting seamless and impactful dialogues that enhance the storytelling experience."
+    },
+    {
+        "name": "James Wright",
+        "profile-img": "https://images.unsplash.com/photo-1591084728795-1149f32d9866?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Camera Operation",
+            "Videography"
+        ],
+        "experience": 5,
+        "designation": "Videographer",
+        "bio": "Capturing the essence of moments through skilled camera operation and videography."
+    },
+    {
+        "name": "Penelope Reed",
+        "profile-img": "https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Thubnail Design",
+            "Digital Art"
+        ],
+        "experience": 6,
+        "designation": "Digital Artist",
+        "bio": "Bringing ideas to life through digital art, creating visually stunning thumbnails."
+    },
+    {
+        "name": "Andrew Collins",
+        "profile-img": "https://images.unsplash.com/photo-1591084728795-1149f32d9866?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Content Writing",
+            "SEO Copywriting"
+        ],
+        "experience": 9,
+        "designation": "SEO Content Writer",
+        "bio": "Crafting SEO-optimized content that not only informs but also ranks high in search results."
+    },
+    {
+        "name": "Isabella Turner",
+        "profile-img": "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "skills": [
+            "Graphic Design",
+            "Digital Marketing"
+        ],
+        "experience": 7,
+        "designation": "Digital Marketing Designer",
+        "bio": "Integrating creativity into digital marketing strategies through visually compelling designs."
     }
 ]

@@ -1,12 +1,192 @@
 [
     {
-        "creator-name": "Arzoo",
-        "creator-desc": "I am a gaming content creator",
-        "job-title": "video editor",
-        "job-desc": "A job for a video editor",
-        "stipend": 23000,
-        "requirements": ["Figma", "Illustrator", "Photoshop"],
-        "type": "partime",
-        "active": true
+      "company": "Digital Innovations Co.",
+      "title": "Content Creator",
+      "location": "San Francisco, CA",
+      "jobType": "Full Time",
+      "salary": "$60,000 - $75,000",
+      "skillsRequired": ["Content Creation", "Social Media Management", "Creative Writing", "Collaboration"],
+      "active": true,
+      "description": "Join our creative team to produce engaging and compelling digital content, including articles, videos, and social media posts. Collaborate with marketing and design teams to create content that resonates with our target audience."
+    },
+    {
+      "company": "Global Media Agency",
+      "title": "Senior Content Producer",
+      "location": "New York, NY",
+      "jobType": "Full Time",
+      "salary": "$80,000 - $100,000",
+      "skillsRequired": ["Content Strategy", "Team Management", "Creative Direction", "Video Production"],
+      "active": true,
+      "description": "Exciting opportunity for an experienced content creator to lead content production efforts. Develop and execute content strategies, manage a team of content creators, and ensure the delivery of high-quality and impactful content."
+    },
+    {
+      "company": "TechBuzz News Network",
+      "title": "Tech Content Specialist",
+      "location": "Seattle, WA",
+      "jobType": "Full Time",
+      "salary": "$70,000 - $90,000",
+      "skillsRequired": ["Tech Trends", "Research", "Article Writing", "Video Editing"],
+      "active": true,
+      "description": "Specialize in creating content related to the latest technology trends. Research and write articles, create engaging videos, and stay updated on the tech industry to produce relevant and informative content for our audience."
+    },
+    {
+      "company": "FashionForward Studio",
+      "title": "Fashion Content Creator",
+      "location": "Los Angeles, CA",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Fashion Trends", "Photography", "Collaboration", "Creative Design"],
+      "active": true,
+      "description": "Passionate about fashion? Join our team to create visually stunning and trendsetting content. Collaborate with fashion designers, photographers, and influencers to showcase the latest fashion trends through various content channels."
+    },
+    {
+      "company": "Financial Insights Group",
+      "title": "Finance Content Writer",
+      "location": "Chicago, IL",
+      "jobType": "Full Time",
+      "salary": "$65,000 - $80,000",
+      "skillsRequired": ["Financial Analysis", "Research", "Creative Writing", "Communication"],
+      "active": true,
+      "description": "Bring financial insights to life through engaging and informative content. Research and write articles on financial topics, market trends, and investment strategies. Collaborate with experts to produce content that educates and informs our audience."
+    },
+    {
+      "company": "Travel Discoveries Network",
+      "title": "Travel Content Creator",
+      "location": "Dallas, TX",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Travel Writing", "Photography", "Video Editing", "Social Media Management"],
+      "active": true,
+      "description": "Combine your passion for travel with content creation. Explore new destinations, create travel guides, and share your experiences through captivating content. Collaborate with travel experts and influencers to inspire our audience to explore the world."
+    },
+    {
+      "company": "Gaming Galaxy Studios",
+      "title": "Gaming Content Producer",
+      "location": "Denver, CO",
+      "jobType": "Full Time",
+      "salary": "$75,000 - $95,000",
+      "skillsRequired": ["Gameplay Video Production", "Gaming Trends", "Review Writing", "Community Engagement"],
+      "active": true,
+      "description": "Immerse yourself in the gaming world as a content creator. Create engaging gameplay videos, review new releases, and connect with the gaming community. Stay updated on industry trends and contribute to the growth of our gaming content platform."
+    },
+    {
+      "company": "Lifestyle Trends Hub",
+      "title": "Lifestyle Content Specialist",
+      "location": "Miami, FL",
+      "jobType": "Full Time",
+      "salary": "$60,000 - $75,000",
+      "skillsRequired": ["Lifestyle Trends", "Health and Wellness", "Home Decor", "Collaboration"],
+      "active": true,
+      "description": "Curate and create lifestyle content that reflects current trends. Cover topics such as health, wellness, home decor, and more. Collaborate with lifestyle influencers and experts to produce content that resonates with our diverse audience."
+    },
+    {
+      "company": "Digital Solutions Agency",
+      "title": "Social Media Content Creator",
+      "location": "Phoenix, AZ",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Social Media Management", "Graphic Design", "Content Calendar Planning", "Communication"],
+      "active": true,
+      "description": "Drive our social media presence through creative and engaging content. Develop content calendars, create visually appealing graphics, and strategize on content distribution. Stay updated on social media trends and leverage platforms to enhance brand visibility."
+    },
+    {
+      "company": "TechStart Innovations",
+      "title": "Tech Content Creator",
+      "location": "Atlanta, GA",
+      "jobType": "Full Time",
+      "salary": "$70,000 - $90,000",
+      "skillsRequired": ["Tech Trends", "Research", "Article Writing", "Video Production"],
+      "active": true,
+      "description": "Contribute to our tech-focused content creation team. Research and produce articles, blogs, and videos on emerging technologies, software development, and IT trends. Collaborate with tech experts and enthusiasts to deliver content that educates and inspires."
+    },
+    {
+      "company": "Foodie Ventures Network",
+      "title": "Food Content Producer",
+      "location": "Houston, TX",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Recipe Creation", "Food Photography", "Review Writing", "Collaboration"],
+      "active": true,
+      "description": "Explore the culinary world as a food content creator. Create mouth-watering recipes, share cooking tips, and review local restaurants. Collaborate with chefs and food influencers to produce content that delights our audience's taste buds."
+    },
+    {
+      "company": "Green Living Solutions",
+      "title": "Sustainability Content Writer",
+      "location": "Portland, OR",
+      "jobType": "Full Time",
+      "salary": "$65,000 - $80,000",
+      "skillsRequired": ["Sustainable Practices", "Environmental Initiatives", "Creative Writing", "Research"],
+      "active": true,
+      "description": "Passionate about sustainability? Join our team to create content that promotes eco-friendly living. Write articles on sustainable practices, environmental initiatives, and green innovations. Collaborate with environmentalists and influencers to drive awareness."
+    },
+    {
+      "company": "Project Management Experts",
+      "title": "Project Management Blogger",
+      "location": "Minneapolis, MN",
+      "jobType": "Full Time",
+      "salary": "$70,000 - $85,000",
+      "skillsRequired": ["Project Management", "Blogging", "Content Creation", "Communication"],
+      "active": true,
+      "description": "Share your expertise in project management through insightful and educational content. Write blogs, create videos, and contribute to project management resources. Collaborate with project managers and industry experts to provide valuable insights."
+    },
+    {
+      "company": "Creative Designs Hub",
+      "title": "Graphic Design Content Creator",
+      "location": "Orlando, FL",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Graphic Design", "Visual Identity", "Collaboration", "Creative Thinking"],
+      "active": true,
+      "description": "Showcase your creativity as a graphic design content creator. Produce visually appealing graphics for marketing materials, social media posts, and digital campaigns. Collaborate with design teams to ensure the visual identity aligns with brand objectives."
+    },
+    {
+      "company": "E-commerce Solutions Agency",
+      "title": "E-commerce Content Specialist",
+      "location": "Detroit, MI",
+      "jobType": "Full Time",
+      "salary": "$65,000 - $80,000",
+      "skillsRequired": ["E-commerce", "Product Descriptions", "Video Production", "Marketing Strategies"],
+      "active": true,
+      "description": "Drive e-commerce success through compelling content creation. Write product descriptions, create engaging product videos, and contribute to e-commerce marketing strategies. Collaborate with e-commerce experts to enhance the online shopping experience."
+    },
+    {
+      "company": "Health and Wellness Network",
+      "title": "Wellness Content Creator",
+      "location": "San Diego, CA",
+      "jobType": "Full Time",
+      "salary": "$75,000 - $90,000",
+      "skillsRequired": ["Wellness", "Fitness", "Content Creation", "Collaboration"],
+      "active": true,
+      "description": "Promote holistic well-being through wellness content creation. Write articles, create videos, and share tips on physical and mental health. Collaborate with wellness experts and influencers to inspire our audience to prioritize their health."
+    },
+    {
+      "company": "Automotive Insights Group",
+      "title": "Automotive Content Writer",
+      "location": "Austin, TX",
+      "jobType": "Internship",
+      "salary": "Stipend Provided",
+      "skillsRequired": ["Automotive Trends", "Review Writing", "Video Production", "Creative Writing"],
+      "active": true,
+      "description": "Combine your love for cars with content creation. Write articles, create videos, and review the latest automotive trends. Collaborate with automotive experts and enthusiasts to provide valuable insights to our audience."
+    },
+    {
+      "company": "Educational Innovations Co.",
+      "title": "Educational Content Producer",
+      "location": "Boston, MA",
+      "jobType": "Full Time",
+      "salary": "$70,000 - $85,000",
+      "skillsRequired": ["Educational Content", "Instructional Design", "Video Production", "Collaboration"],
+      "active": true,
+      "description": "Make a difference through educational content creation. Develop engaging educational materials, create instructional videos, and contribute to online learning resources. Collaborate with educators and experts to enhance the educational experience."
+    },
+    {
+      "company": "Fitness Focus Studios",
+      "title": "Fitness Content Specialist",
+      "location": "Philadelphia, PA",
+      "jobType": "Full Time",
+      "salary": "$60,000 - $75,000",
+      "skillsRequired": ["Fitness", "Workout Routines", "Video Production", "Collaboration"],
+      "active": true,
+      "description": "Inspire fitness enthusiasts through engaging content creation. Develop workout routines, create fitness videos, and share health and wellness tips. Collaborate with fitness trainers and influencers to promote an active and healthy lifestyle."
     }
-]
+  ]
