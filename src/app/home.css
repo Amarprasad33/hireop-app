@@ -260,8 +260,12 @@
 .section-about{
   color: #fff;
   height: 100vh;
-  border: 1px solid red;
   background-color: #41064b;
+}
+.logo-section{
+  font-size: 44px;
+  font-weight: 700;
+  font-style: italic;
 }
 .about-header{
   height: 18%;
@@ -294,4 +298,5 @@
 .data-item:hover {
   color: #ec2e3a;
   text-decoration: underline;
+  cursor: pointer;
 }

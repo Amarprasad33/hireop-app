@@ -1,7 +1,6 @@
 import Image from 'next/image'
 // import styles from './page.module.css'
 import './home.css';
-// import aboutMenuData from '../../public/assets/configs/about-menu.json'
 import { promises as fs } from 'fs';
 import { useEffect } from 'react';
 
