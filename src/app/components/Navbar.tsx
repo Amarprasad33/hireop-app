@@ -5,6 +5,7 @@ const inter = Inter({
     subsets: ['latin'],
     weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 })
+import Link from "next/link";
   
 
 export default function Navbar() {
@@ -13,7 +14,7 @@ export default function Navbar() {
         <div className={`nav-container`}>
             <div className="fixed-menu">
                 <div className="logo">
-                    Hireop
+                    <Link href="/">Hireop</Link>
                 </div>
                 <button className="classic-btn">
                     <span className={`c-btn-font ${inter.className}`}>Post a job</span>

@@ -1,8 +1,5 @@
-import Image from 'next/image'
-// import styles from './page.module.css'
 import './home.css';
 import { promises as fs } from 'fs';
-import { useEffect } from 'react';
 
 export default async function Home() {
   const filePath = process.cwd() + '/public/assets/configs/about-menu.json';
