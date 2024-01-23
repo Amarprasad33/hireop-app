@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "company": "Digital Innovations Co.",
       "title": "Content Creator",
       "location": "San Francisco, CA",
@@ -10,6 +11,7 @@
       "description": "Join our creative team to produce engaging and compelling digital content, including articles, videos, and social media posts. Collaborate with marketing and design teams to create content that resonates with our target audience."
     },
     {
+      "id": 2,
       "company": "Global Media Agency",
       "title": "Senior Content Producer",
       "location": "New York, NY",
@@ -20,6 +22,7 @@
       "description": "Exciting opportunity for an experienced content creator to lead content production efforts. Develop and execute content strategies, manage a team of content creators, and ensure the delivery of high-quality and impactful content."
     },
     {
+      "id": 3,
       "company": "TechBuzz News Network",
       "title": "Tech Content Specialist",
       "location": "Seattle, WA",
@@ -30,6 +33,7 @@
       "description": "Specialize in creating content related to the latest technology trends. Research and write articles, create engaging videos, and stay updated on the tech industry to produce relevant and informative content for our audience."
     },
     {
+      "id": 4,
       "company": "FashionForward Studio",
       "title": "Fashion Content Creator",
       "location": "Los Angeles, CA",
@@ -40,6 +44,7 @@
       "description": "Passionate about fashion? Join our team to create visually stunning and trendsetting content. Collaborate with fashion designers, photographers, and influencers to showcase the latest fashion trends through various content channels."
     },
     {
+      "id": 5,
       "company": "Financial Insights Group",
       "title": "Finance Content Writer",
       "location": "Chicago, IL",
@@ -50,6 +55,7 @@
       "description": "Bring financial insights to life through engaging and informative content. Research and write articles on financial topics, market trends, and investment strategies. Collaborate with experts to produce content that educates and informs our audience."
     },
     {
+      "id": 6,
       "company": "Travel Discoveries Network",
       "title": "Travel Content Creator",
       "location": "Dallas, TX",
@@ -60,6 +66,7 @@
       "description": "Combine your passion for travel with content creation. Explore new destinations, create travel guides, and share your experiences through captivating content. Collaborate with travel experts and influencers to inspire our audience to explore the world."
     },
     {
+      "id": 7,
       "company": "Gaming Galaxy Studios",
       "title": "Gaming Content Producer",
       "location": "Denver, CO",
@@ -70,6 +77,7 @@
       "description": "Immerse yourself in the gaming world as a content creator. Create engaging gameplay videos, review new releases, and connect with the gaming community. Stay updated on industry trends and contribute to the growth of our gaming content platform."
     },
     {
+      "id": 8,
       "company": "Lifestyle Trends Hub",
       "title": "Lifestyle Content Specialist",
       "location": "Miami, FL",
@@ -80,6 +88,7 @@
       "description": "Curate and create lifestyle content that reflects current trends. Cover topics such as health, wellness, home decor, and more. Collaborate with lifestyle influencers and experts to produce content that resonates with our diverse audience."
     },
     {
+      "id": 9,
       "company": "Digital Solutions Agency",
       "title": "Social Media Content Creator",
       "location": "Phoenix, AZ",
@@ -90,6 +99,7 @@
       "description": "Drive our social media presence through creative and engaging content. Develop content calendars, create visually appealing graphics, and strategize on content distribution. Stay updated on social media trends and leverage platforms to enhance brand visibility."
     },
     {
+      "id": 10,
       "company": "TechStart Innovations",
       "title": "Tech Content Creator",
       "location": "Atlanta, GA",
@@ -100,6 +110,7 @@
       "description": "Contribute to our tech-focused content creation team. Research and produce articles, blogs, and videos on emerging technologies, software development, and IT trends. Collaborate with tech experts and enthusiasts to deliver content that educates and inspires."
     },
     {
+      "id": 11,
       "company": "Foodie Ventures Network",
       "title": "Food Content Producer",
       "location": "Houston, TX",
@@ -110,6 +121,7 @@
       "description": "Explore the culinary world as a food content creator. Create mouth-watering recipes, share cooking tips, and review local restaurants. Collaborate with chefs and food influencers to produce content that delights our audience's taste buds."
     },
     {
+      "id": 12,
       "company": "Green Living Solutions",
       "title": "Sustainability Content Writer",
       "location": "Portland, OR",
@@ -120,6 +132,7 @@
       "description": "Passionate about sustainability? Join our team to create content that promotes eco-friendly living. Write articles on sustainable practices, environmental initiatives, and green innovations. Collaborate with environmentalists and influencers to drive awareness."
     },
     {
+      "id": 13,
       "company": "Project Management Experts",
       "title": "Project Management Blogger",
       "location": "Minneapolis, MN",
@@ -130,6 +143,7 @@
       "description": "Share your expertise in project management through insightful and educational content. Write blogs, create videos, and contribute to project management resources. Collaborate with project managers and industry experts to provide valuable insights."
     },
     {
+      "id": 14,
       "company": "Creative Designs Hub",
       "title": "Graphic Design Content Creator",
       "location": "Orlando, FL",
@@ -140,6 +154,7 @@
       "description": "Showcase your creativity as a graphic design content creator. Produce visually appealing graphics for marketing materials, social media posts, and digital campaigns. Collaborate with design teams to ensure the visual identity aligns with brand objectives."
     },
     {
+      "id": 15,
       "company": "E-commerce Solutions Agency",
       "title": "E-commerce Content Specialist",
       "location": "Detroit, MI",
@@ -150,6 +165,7 @@
       "description": "Drive e-commerce success through compelling content creation. Write product descriptions, create engaging product videos, and contribute to e-commerce marketing strategies. Collaborate with e-commerce experts to enhance the online shopping experience."
     },
     {
+      "id": 16,
       "company": "Health and Wellness Network",
       "title": "Wellness Content Creator",
       "location": "San Diego, CA",
@@ -160,6 +176,7 @@
       "description": "Promote holistic well-being through wellness content creation. Write articles, create videos, and share tips on physical and mental health. Collaborate with wellness experts and influencers to inspire our audience to prioritize their health."
     },
     {
+      "id": 17,
       "company": "Automotive Insights Group",
       "title": "Automotive Content Writer",
       "location": "Austin, TX",
@@ -170,6 +187,7 @@
       "description": "Combine your love for cars with content creation. Write articles, create videos, and review the latest automotive trends. Collaborate with automotive experts and enthusiasts to provide valuable insights to our audience."
     },
     {
+      "id": 18,
       "company": "Educational Innovations Co.",
       "title": "Educational Content Producer",
       "location": "Boston, MA",
@@ -180,6 +198,7 @@
       "description": "Make a difference through educational content creation. Develop engaging educational materials, create instructional videos, and contribute to online learning resources. Collaborate with educators and experts to enhance the educational experience."
     },
     {
+      "id": 19,
       "company": "Fitness Focus Studios",
       "title": "Fitness Content Specialist",
       "location": "Philadelphia, PA",
