@@ -1,0 +1,127 @@
+
+.people-page-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.people-page-header{
+    height: 10%;
+    background: darkgray;
+}
+.filter-container{
+    padding: 20px;
+    display: flex;
+}
+.filter-container button {
+    margin-left: auto;
+}
+.profile-card-container{
+    border: 1px solid red;
+}
+
+
+
+.post {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: solid #e0e0e0;
+    border-width: 1px 1px 3px;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 100%;
+}
+.people-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 25px;
+}
+.post-header{
+    display: flex;
+    gap: 12px;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.icon {
+    width: 39px;
+    height: 39px;
+    background-color: cadetblue;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 94%;
+}
+.c-name{
+    font-weight: 600;
+    font-size: 18px;
+}
+.c-desc{
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 400;
+    width: 98%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.active-hire{
+    font-size: 12px;
+    background-color: #bfefd2;
+    width: fit-content;
+    padding: 6px 16px;
+    border-radius: 18px;
+    font-weight: 600;
+    color: #00431b;
+}
+.job-card{
+    display: flex;
+    gap: 10px;
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+}
+.job-card:hover{
+    border: 1px solid #bdbdbd;
+}
+.stipend{
+    position: relative;
+    color: rgb(82 87 105)
+}
+.stipend::after{
+    content: ".";
+    font-size: 33px;
+    position: absolute;
+    bottom: 0px;
+    color:  rgb(82 87 105);
+}
+.post-footer{
+    border: 1px solid;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+}
+.btn-group{
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+}
+.btn-filter{
+    padding: 4px 12px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #000;
+}
+.zero{
+    border: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(82 87 105);
+}
