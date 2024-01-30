@@ -1,8 +1,14 @@
 
 .people-page-container{
-    height: 100vh;
+    height: 93.2vh;
     display: flex;
     flex-direction: column;
+}
+.people-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 25px;
 }
 .people-page-header{
     height: 10%;
@@ -18,10 +24,75 @@
 .profile-card-container{
     border: 1px solid red;
 }
+.profile-card{
+    background-color: #fff;
+    width: -moz-fit-content;
+    width: 31%;
+    padding: 25px 30px 16px 30px;
+    box-shadow: 0px 1px 2px rgba(3, 7, 18, 0.04), 2px 4px 9px rgba(3, 7, 18, 0.08), 4px 8px 21px rgba(3, 7, 18, 0.11), 7px 14px 37px rgba(3, 7, 18, 0.15), 11px 22px 58px rgba(3, 7, 18, 0.19);
+    transition: all ease-in-out 0.2s;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+}
+.profile-pic img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #000;
+}
+.p-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.p-designation {
+    font-size: 16px;
+    font-weight: 600;
+    color: #808083;
+}
+.p-experience{
+    font-size: 13px;
+    font-weight: 600;
+    color: #00b710;
+}
+.skills-container{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 75%;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    text-align: center;
+}
+.p-skill{
+    border: 1px solid #000;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 12px;
+}
+.socials{
+    display: flex;
+    gap: 6px;
+}
+.btn-filter{
+    padding: 4px 12px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #000;
+}
 
-
-
-.post {
+/* .post {
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -32,16 +103,9 @@
     border-radius: 4px;
     width: 100%;
 }
-.people-container{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 0px 25px;
-}
 .post-header{
     display: flex;
     gap: 12px;
-    /* border: 1px solid red; */
     width: 100%;
 }
 .icon {
@@ -112,16 +176,10 @@
     display: flex;
     gap: 8px;
 }
-.btn-filter{
-    padding: 4px 12px;
-    border-radius: 4px;
-    background: #fff;
-    border: 1px solid #000;
-}
 .zero{
     border: none;
     background: none;
     font-size: 15px;
     font-weight: 600;
     color: rgb(82 87 105);
-}
+} */

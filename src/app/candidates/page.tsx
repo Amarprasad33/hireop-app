@@ -1,5 +1,6 @@
 import { promises as fs } from 'fs';
 import './professionals.css'
+import Image from 'next/image';
 
 
 export default async function Candidates() {
@@ -10,19 +11,54 @@ export default async function Candidates() {
 
     return (
         <div className="people-page-container">
-          <div className="people-page-header">
+          {/* <div className="people-page-header">
 
-          </div>
-            
+          </div> */}
+          
           <div className="people-container">
-              <div className="filter-container">
+                <div className="filter-container">
                   <button className='btn-filter'>Filter</button>
-              </div>
-              <div className="profile-card-container">
-                <div className="proile-card">
-                  
                 </div>
-              </div>
+            <div className="card-container">
+                {peopleData.map((person: any) => (
+                    <div key={person.name} className="profile-card">
+                        <div className="profile-pic">
+                        {/* <Image src="https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt='person' width={50} height={50}></Image> */}
+                            <img src={person['profile-img']} alt="Person Img" />
+                        </div>
+                        <div className="p-name">{person.name}</div>
+                        <div className="p-designation">{person.designation}</div>
+                        <div className="p-experience">Exp: {person.experience}+ Years</div>
+                        <div className="skills-container">
+                            {person.skills.map((item: any) => (
+                                <div className="p-skill" key={item}>{item}</div>
+                            ))}
+                        </div>
+                        <div className="socials">
+                            <div className="social-img-wrapper"><Image style={{'borderRadius': '50%'}} src="/assets/images/facebook.png" width={25} height={25} alt='social'></Image></div>
+                            <div className="social-img-wrapper"><Image style={{'borderRadius': '50%'}} src="/assets/images/instagram.png" width={29} height={29} alt='social'></Image></div>
+                            <div className="social-img-wrapper"><Image style={{'borderRadius': '50%'}} src="/assets/images/linkedin.png" width={25} height={25} alt='social'></Image></div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+              
+              {/* <div className="profile-card-container">
+                <div className="profile-card">
+                    <div className="profile-pic">
+                        <img src="https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={200} width={200} alt="" />
+                    </div>
+                    <div className="p-name">Adam Jordan</div>
+                    <div className="p-designation">Video Editor</div>
+                    <div className="p-experience">Exp: 8+ Years</div>
+                    <div className="skills-container">
+                        <div className="p-skill">Premere pro</div>
+                        <div className="p-skill">Photoshop</div>
+                        <div className="p-skill">Photoshop</div>
+                        <div className="p-skill">Photoshop</div>
+                    </div>
+                </div>
+               </div> */}
               {/* {peopleData.map((item: any) => (
                   <div className="post" key={item.id}>
                       <div className="post-header">
