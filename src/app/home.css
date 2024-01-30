@@ -212,7 +212,8 @@
   width: 80%;
 }
 .btn-action-group{
-  margin-top: 30px;
+  /* margin-top: 30px; */
+  margin-top: 6%;
   display: flex;
   gap: 16px;
 }
@@ -300,3 +301,10 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* Media Queries */
+/* @media screen and (max-width: 1060px) {
+  .btn-action-group{
+    margin-top: 10px;
+  }
+} */

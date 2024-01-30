@@ -17,7 +17,9 @@ export default function Navbar() {
                     <Link href="/">Hireop</Link>
                 </div>
                 <button className="classic-btn">
-                    <span className={`c-btn-font ${inter.className}`}>Post a job</span>
+                    <span className={`c-btn-font ${inter.className}`}>
+                        <Link className="c-btn-font" href="/job-posts">Post a job</Link>
+                    </span>
                 </button>
                 <button className="classic-btn">
                     <span className={`c-btn-font ${inter.className}`}>Find people</span>
