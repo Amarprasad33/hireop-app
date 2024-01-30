@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
@@ -43,6 +44,7 @@ const SubmitButton = styled.button`
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 // React component for the Signup page
@@ -81,7 +83,9 @@ export default function Signup() {
             required
           />
         </FormGroup>
-        <SubmitButton type="submit">Sign up</SubmitButton>
+        <SubmitButton type="submit">
+            <Link href="/" style={{'color': '#fff', 'textDecoration': 'none'}}>Sign up</Link>
+        </SubmitButton>
       </SignupForm>
     </SignupPageContainer>
   );

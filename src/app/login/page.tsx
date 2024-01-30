@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
@@ -81,7 +82,9 @@ export default function Login() {
             required
           />
         </FormGroup>
-        <SubmitButton type="submit">Login</SubmitButton>
+        <SubmitButton type="submit">
+          <Link href="/" style={{'color': '#fff', 'textDecoration': 'none'}}>Login</Link>
+        </SubmitButton>
       </LoginForm>
     </LoginPageContainer>
   );

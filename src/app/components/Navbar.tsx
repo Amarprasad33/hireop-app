@@ -40,9 +40,14 @@ export default function Navbar() {
                             </svg>
                         </span>
                         <span className="btn-font">
-                            Sign up
+                            <Link className="btn-font" href="/signup">Sign up</Link>
                         </span>
                     </div>
+                </button>
+                <button className="classic-btn">
+                    <span className={`c-btn-font ${inter.className}`}>
+                        <Link className="c-btn-font" href="/login">Login</Link>
+                    </span>
                 </button>               
                 <button className="classic-btn">
                     <span className={`c-btn-font ${inter.className}`}>Find jobs</span>
