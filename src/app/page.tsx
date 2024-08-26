@@ -17,7 +17,7 @@ export default async function Home() {
             Elevate your creative projects with our specialized hiring platform designed exclusively for content creators. Unleash the full potential of your creativity by assembling the perfect team for your vision.  
           </div>
         </div>
-        <video src={require('../../public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' />
+        <video src={require('/public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' />
         {/* Section - 2 - Actions - diff pages */}
         <div className="section-action">
           <div className="message-container">
