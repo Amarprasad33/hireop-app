@@ -11,10 +11,6 @@ export default async function Candidates() {
 
     return (
         <div className="people-page-container">
-          {/* <div className="people-page-header">
-
-          </div> */}
-          
           <div className="people-container">
                 <div className="filter-container">
                   <button className='btn-filter'>Filter</button>
@@ -23,7 +19,6 @@ export default async function Candidates() {
                 {peopleData.map((person: any) => (
                     <div key={person.name} className="profile-card">
                         <div className="profile-pic">
-                        {/* <Image src="https://images.unsplash.com/photo-1586716402203-79219bede43c?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt='person' width={50} height={50}></Image> */}
                             <img src={person['profile-img']} alt="Person Img" />
                         </div>
                         <div className="p-name">{person.name}</div>

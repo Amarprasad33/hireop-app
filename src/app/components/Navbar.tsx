@@ -26,8 +26,6 @@ export default function Navbar() {
                 </button>
             </div>
             <div className="variable-menu">
-            {/* <Image src="/assets/images/neon-ring.jpg" width={40} height={40} alt="ring-wall" color="black" /> */}
-                
                 <button className="action-btn">
                     <div className="button">
                         <span className="button__icon-wrapper">
