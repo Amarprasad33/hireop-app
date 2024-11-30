@@ -1,15 +1,37 @@
 :root {
     --primary: #f5a091;
 }
-
+.main-container{
+    position: fixed;
+    z-index: 40;
+    display: flex;
+    width: 100%;
+}
+.blur-filter{
+    width: 100%;
+    position: absolute;
+    inset: 0px;
+    z-index: 30;
+    background: rgba(17, 17, 17, 1);
+}
 .nav-container{
-    /* border: 2px solid red; */
     color: #fff;
-    /* background-color: transparent; */
-    background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+    background: rgba(17,17,17,0.35);
+    filter: blur(5px);
     display: flex;
     justify-content: space-around;
     padding: 8px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    width: 100%;
+    z-index: 40;    
+    border-bottom: 1px solid #464646;
+}
+.bg-blur{
+    background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
 }
 
 .fixed-menu{

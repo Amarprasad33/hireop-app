@@ -1,5 +1,6 @@
 import './home.css';
 import { promises as fs } from 'fs';
+import Image from 'next/image';
 
 export default async function Home() {
   const filePath = process.cwd() + '/public/assets/configs/about-menu.json';
@@ -16,8 +17,9 @@ export default async function Home() {
           <div className="subtitle">
             Elevate your creative projects with our specialized hiring platform designed exclusively for content creators. Unleash the full potential of your creativity by assembling the perfect team for your vision.  
           </div>
+          <Image src='/assets/images/hero-bg.jpg'  style={{inset: '0px',position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', zIndex: 1}} width={3000} height={2000} alt='hero-bg'/>
         </div>
-        <video src={require('/public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' />
+        {/* <video src={require('/public/assets/videos/landing-video.mp4')} autoPlay muted loop className='video' /> */}
         {/* Section - 2 - Actions - diff pages */}
         <div className="section-action">
           <div className="message-container">

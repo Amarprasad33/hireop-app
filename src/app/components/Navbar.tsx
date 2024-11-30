@@ -10,8 +10,12 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <main className={inter.className}>
-        <div className={`nav-container`}>
+    <main className={`${inter.className} main-container `}>
+        {/* <div className={`nav-container`}>
+            
+        </div> */}
+        <div className="blur-filter"></div>
+        <div className="nav-content">
             <div className="fixed-menu">
                 <div className="logo">
                     <Link href="/">Hireop</Link>
